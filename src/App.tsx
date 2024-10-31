@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black bg-[radial-gradient(circle_at_center,rgba(168,85,247,0.15),transparent_50%)]">
       <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
             <div className="flex flex-col items-center gap-4">
               <img 
@@ -96,7 +96,7 @@ function App() {
                 onSelect={handleLanguageSelect}
               />
               
-              <div className="h-[600px] flex flex-col">
+              <div className="h-[700px] flex flex-col">
                 <ChatMessages messages={state.messages} />
                 <ChatInput
                   onSend={handleSendMessage}
